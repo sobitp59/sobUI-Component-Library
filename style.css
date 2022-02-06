@@ -9,6 +9,10 @@
 body{
     font-family: 'Poppins', sans-serif;
 }
+
+hr{
+    margin: 2rem 0;
+}
 .top{
     text-align: center;
 }
@@ -42,4 +46,14 @@ body{
     color: var(--primary-color);
     border: 1px solid var(--primary-color);
     border-radius: 0.4rem;
+}
+
+/* lists */
+.non-bulleted-list{
+    list-style:none ;
+}
+
+.inline-list li{
+    display: inline;
+    padding: 0rem 1rem;
 }
