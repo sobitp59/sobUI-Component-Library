@@ -111,3 +111,15 @@ hr{
     color: var(--primary-color);
 }
 
+/* section */
+.section{
+    padding: 2rem;
+}
+.section h3,p{
+    text-align: center;
+}
+.off-white-section{
+    background-color: var(--secondary-color);
+    border-radius: 0.35rem;
+    color: white;
+}
