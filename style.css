@@ -57,3 +57,38 @@ hr{
     display: inline;
     padding: 0rem 1rem;
 }
+
+/* navbar */
+.navbar{
+    background-color: var(--primary-color);
+    padding: 0.3rem 1rem;
+    border-bottom-left-radius: 0.7rem;
+}
+
+.nav-brand{
+    color: white;
+    font-weight: 600;
+    font-size: 2rem;
+}
+
+.nav-lists{
+    display: flex;
+    justify-content: flex-end;
+}
+.nav-lists .nav-list{
+   list-style: none;
+}
+
+.nav-lists .nav-link{
+    text-decoration: none;
+    color: white;
+    padding: 0 2rem;
+    font-size: 1.1rem;
+}
+.nav-lists .link-active{
+    font-weight: bold;
+}
+.nav-link:hover{
+    background-color: #8800ff;
+    border-bottom: 0.2rem solid white;
+}
