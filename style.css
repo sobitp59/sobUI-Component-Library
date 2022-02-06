@@ -2,3 +2,19 @@
 body{
     font-family: 'Poppins', sans-serif;
 }
+.top{
+    text-align: center;
+}
+.top span{
+    color : #7e22ce;
+}
+
+.container{
+    padding-left: 1rem;
+
+}
+
+.center-container{
+    max-width: 600px;
+    margin: auto;
+}
