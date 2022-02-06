@@ -123,3 +123,28 @@ hr{
     border-radius: 0.35rem;
     color: white;
 }
+
+/* footer */
+.footer{
+    background-color: var(--primary-color);
+    padding: 1.7rem;
+    border-top-right-radius: 0.7rem;
+}
+.footer .footer-heading{
+    text-align: center;
+    color: white;
+    font-size: 1.6rem;
+}
+
+.footer-social-lists{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    padding-inline-start: 0px ;
+}
+
+
+.footer .footer-social-lists .social-links{
+    color: white;
+    text-decoration: none;
+}
