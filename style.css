@@ -3,6 +3,7 @@
 /* css-variables */
 :root{
     --primary-color : #7e22ce; 
+    --secondary-color : #3f3d56;
 }
 
 
@@ -88,7 +89,25 @@ hr{
 .nav-lists .link-active{
     font-weight: bold;
 }
-.nav-link:hover{
-    background-color: #8800ff;
-    border-bottom: 0.2rem solid white;
+
+/* header */
+.hero{
+    padding: 2rem;
 }
+
+.hero .hero-image{
+    max-width: 400px;
+    display: block;
+    margin: auto;
+}
+
+.hero .hero-heading{
+    text-align: center;
+    font-size: 3rem;
+    color: var(--secondary-color);
+}
+
+.hero-heading span{
+    color: var(--primary-color);
+}
+
