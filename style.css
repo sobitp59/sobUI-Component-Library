@@ -2,10 +2,13 @@
 
 /* css-variables */
 :root{
-    --primary-color : #7e22ce; 
+    /* --primary-color : #7e22ce;  */
+    --primary-color : #65e2be; 
     --secondary-color : #3f3d56;
+    
 }
 
+/* background-image: linear-gradient(to right, #68E4BC 0%, #4AD0D1 99%); */
 
 body{
     font-family: 'Poppins', sans-serif;
@@ -61,7 +64,7 @@ hr{
 
 /* navbar */
 .navbar{
-    background-color: var(--primary-color);
+    background-image: var(--navBG);
     padding: 0.3rem 1rem;
     border-bottom-left-radius: 0.7rem;
 }
