@@ -5,6 +5,7 @@
     /* --primary-color : #7e22ce;  */
     --primary-color : #65e2be; 
     --secondary-color : #3f3d56;
+    --shadow : 0 12px 12px -11px #0db4afb8;
     
 }
 
@@ -44,6 +45,7 @@ hr{
     background-color: var(--primary-color);
     color: white;
     border-radius: 0.4rem;
+    box-shadow: var(--shadow);
 }
 
 .secondaryLink{
